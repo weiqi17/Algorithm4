@@ -23,7 +23,7 @@ public class BinarySearch{
         Arrays.sort(whitelist);
         while(!StdIn.isEmpty()){
             int key = StdIn.readInt();
-            if(rank(key,whitelist)<0)
+            if(rank(key, whitelist)<0)
                 StdOut.println(key);
         }
     }
