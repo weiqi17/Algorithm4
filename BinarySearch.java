@@ -1,4 +1,8 @@
 import java.util.Arrays;
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 public class BinarySearch{
     public static int rank(int key, int[] a){
         int lo = 0;
